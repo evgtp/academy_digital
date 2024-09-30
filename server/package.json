@@ -1,0 +1,18 @@
+{
+  "name": "chatwsapi",
+  "version": "1.0.0",
+  "description": "WS api for basic chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^8.5.12",
+    "nodemon": "^3.1.6",
+    "ws": "^8.18.0"
+  }
+}
