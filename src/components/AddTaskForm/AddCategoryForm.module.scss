@@ -1,0 +1,21 @@
+.form__category {
+  width: 50rem;
+  height: 12rem;
+  background-color: rgba(58, 56, 56, 0.838);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-around;
+
+  &__input {
+    width: 25rem;
+    height: 3rem;
+  }
+
+  &__button {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.category__container {
+  padding: 2rem;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    width: 40rem;
+    height: auto;
+
+    .category__controls {
+      display: flex;
+      align-items: center;
+      &__button {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+}

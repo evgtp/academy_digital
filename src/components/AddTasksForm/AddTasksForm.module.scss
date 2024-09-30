@@ -1,0 +1,12 @@
+.form__task {
+  display: flex;
+  justify-content: space-between;
+  &__input {
+    width: 25rem;
+  }
+  &__button {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+}

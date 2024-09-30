@@ -1,0 +1,31 @@
+.task {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  > h3 {
+    text-align: start;
+    width: 40rem;
+  }
+  &__controls {
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+    align-items: center;
+    &__button {
+      height: 3rem;
+      border-radius: 10px;
+    }
+    &__edit {
+      width: 2rem;
+      height: 2rem;
+    }
+    &__delete {
+      width: 2rem;
+      height: 2rem;
+    }
+    &__check {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.edit__form {
+  display: flex;
+  position: absolute;
+
+  &__input {
+    height: 3rem;
+    width: 30rem;
+    margin-right: 4rem;
+  }
+  &__button {
+    border-radius: 10px;
+    width: 13rem;
+  }
+}
