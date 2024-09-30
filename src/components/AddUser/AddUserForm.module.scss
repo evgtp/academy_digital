@@ -1,0 +1,19 @@
+.form__user {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  margin: 0 auto;
+
+  &__input {
+    width: 35rem;
+    height: 3rem;
+    margin: 1rem auto;
+  }
+
+  &__button {
+    width: 20rem;
+    height: 3rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+  }
+}
